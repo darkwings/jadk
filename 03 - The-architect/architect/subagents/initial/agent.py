@@ -12,7 +12,8 @@ initial_architecture_agent = LlmAgent(
     model=GEMINI_MODEL,
     description="Initial architecture agent",
     instruction="""
-    You are an architect agent. Your task is to provide an initial architecture design based on the given requirements.
+    You are an architect agent. Your task is to provide an initial architecture design based on 
+    the given requirements.
     """,
     output_key="architecture_design"
 )
